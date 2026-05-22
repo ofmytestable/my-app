@@ -7,7 +7,7 @@ app.use(cors());
 
 const axios = require('axios');
 const cheerio = require('cheerio');
-//const { chromium } = require('playwright');
+const { chromium } = require('playwright');
 
 // server.js 상단에 추가
 app.use((req, res, next) => {
