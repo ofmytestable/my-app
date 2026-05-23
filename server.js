@@ -68,7 +68,7 @@ app.get('/search', async (req, res) => {
 
   try {
 
-//const browser = await chromium.launch({
+const browser = await chromium.launch({
   headless: true,
   args: [
     '--no-sandbox',
